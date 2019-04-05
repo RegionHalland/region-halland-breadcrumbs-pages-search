@@ -90,7 +90,16 @@ array (size=3)
       'url' => boolean false
 ```
 
+## Hämta id från json-filen
+
+```sh
+@php($myID = get_region_halland_breadcrumbs_pages_search_id($data['_id']))
+```
+
 ## Versionhistorik
+
+### 1.1.0
+- Lagt till så man kan få ut ID från json-filen
 
 ### 1.0.0
 - Första version

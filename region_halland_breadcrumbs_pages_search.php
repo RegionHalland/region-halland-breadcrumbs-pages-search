@@ -21,7 +21,7 @@
 		} else {
 			$home_name = $home;
 		}
-		
+
 		// Titel för aktuell sida
 		$title = $title;
 		
@@ -59,6 +59,22 @@
 		// Returnera array-element
 		return $list;
 	}
+
+	function get_region_halland_breadcrumbs_pages_search_id($id) {
+		
+		// Variabel att returnera
+		$myID = "";
+
+		// SPlitta inkommande variabel
+    	$arrID = explode("_", $id);
+
+    	// Hämta ut id
+    	$myID = $arrID[1];
+
+    	// Returnera id
+    	return $myID;
+    	
+	}	
 
 	// Metod som anropas när pluginen aktiveras
 	function region_halland_breadcrumbs_pages_search_activate() {
