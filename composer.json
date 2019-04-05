@@ -1,0 +1,13 @@
+{
+    "name": "regionhalland/region-halland-breadcrumbs-pages-search",
+    "description": "Skapa en breadcrums med hjälp av id + title",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roland Hydén",
+            "email": "Roland.Hyden@Regionhalland.se"
+        }
+    ],
+    "require": {}
+}
