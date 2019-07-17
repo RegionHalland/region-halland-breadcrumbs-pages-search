@@ -10,6 +10,14 @@ Nedan följer instruktioner hur du kan använda pluginet "region_halland_breadcr
 Denna plugin skapar en array() med "breadcrumbs" som man kan visa på en "söksida"
 
 
+## Licensmodell
+
+Denna plugin använder licensmodell GPL-3.0. Du kan läsa mer om denna licensmodell via den medföljande filen:
+```sh
+LICENSE (https://github.com/RegionHalland/region-halland-breadcrumbs-pages-search/blob/master/LICENSE)
+```
+
+
 ## Installation och aktivering
 
 ```sh
@@ -97,6 +105,10 @@ array (size=3)
 ```
 
 ## Versionhistorik
+
+### 1.2.0
+- Uppdaterat med information om licensmodell
+- Bifogat fil med licensmodell
 
 ### 1.1.0
 - Lagt till så man kan få ut ID från json-filen
